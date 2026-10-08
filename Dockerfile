@@ -3,7 +3,7 @@ FROM alpine:3.24
 ARG TARGETARCH=amd64
 
 # renovate: datasource=github-releases depName=kubernetes-sigs/kustomize extractVersion=^kustomize/v(?<version>.*)$
-ARG KUSTOMIZE_VERSION=5.8.1
+ARG KUSTOMIZE_VERSION=5.8.3
 # renovate: datasource=github-releases depName=yannh/kubeconform extractVersion=^v?(?<version>.*)$
 ARG KUBECONFORM_VERSION=0.8.0
 # renovate: datasource=github-releases depName=stackrox/kube-linter extractVersion=^v?(?<version>.*)$
